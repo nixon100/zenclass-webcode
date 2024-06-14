@@ -12,14 +12,16 @@ async function fetchData() {
     const h2Element = document.getElementById("h2");
     // var span = document.querySelector("#h3 span")
     if (h2Element) {
-      h2Element.innerHTML = `Name : <span>${data.name} </span>  `;
+      h2Element.innerHTML = `Name : <span>${data.name} </span> `;
     }
     if (h3Element) {
-      h3Element.innerHTML = `Nationality : <span>${data.country[0].country_id}, ${data.country[1].country_id} </span>  `;
+      h3Element.innerHTML = `Nationality : <span>${data.country[0].country_id}</span> 
+                            Probability :<span>${data.country[0].probability} </span>`;
     }
     if (h4Element) {
-      h4Element.innerHTML = `Probability : 
-        <span>${data.country[0].probability} , ${data.country[1].probability}</span> `;
+      h4Element.innerHTML = `Nationality : <span>${data.country[1].country_id}</span>
+                            Probability :<span> , ${data.country[1].probability}</span>`; 
+        
     }
   } catch (err) {
     console.error("Error:", err);
