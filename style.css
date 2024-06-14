@@ -1,10 +1,70 @@
-#myText {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100%;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-  }
+span {
+  font-size: 20px;
+  color: #768c8c;
+  font-family: fangsong;
+}
+* {
+  font-family: fangsong;
+}
+h3#h3 {
+  color: #000000bf;
+}
+h3#h4 {
+  color: #000000bf;
+}
+div#contant {
+  margin-left: 40px;
+}
+div#contant {
+  margin-left: 40px;
+  padding: 50px;
+}
+
+
+
+input#myText {
+
+  width: 50em;
+  color: rgb(255 21 21);
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 28px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+  background: rgb(251, 251, 251);
+  transition: all 0.1s ease 0s;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+input#myText:focus {
+  border: 2px solid rgb(219, 61, 61);
+}
+
+button#btn1 {
+  background: #fff;
+  backface-visibility: hidden;
+  border-radius: .375rem;
+  border-style: solid;
+  border-width: .125rem;
+  box-sizing: border-box;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 0.6;
+  padding: .875rem 1.125rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+
+  touch-action: manipulation;
+  margin-left: 10px;
+}
