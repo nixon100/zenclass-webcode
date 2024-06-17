@@ -13,7 +13,7 @@ async function fetchData() {
     // var span = document.querySelector("#h3 span")
     if (h2Element) {
       // h2Element.innerHTML = `Name : <span class="name">${data.name} </span> `;
-      h2Element.innerHTML = data.name
+      h2Element.innerHTML = data.name;
 
     }
     if (h3Element) {
