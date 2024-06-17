@@ -68,3 +68,7 @@ button#btn1 {
   touch-action: manipulation;
   margin-left: 10px;
 }
+h3#h2 {
+  font-size: 3.75rem;
+  color: #0200be;
+}

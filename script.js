@@ -12,7 +12,9 @@ async function fetchData() {
     const h2Element = document.getElementById("h2");
     // var span = document.querySelector("#h3 span")
     if (h2Element) {
-      h2Element.innerHTML = `Name : <span>${data.name} </span> `;
+      // h2Element.innerHTML = `Name : <span class="name">${data.name} </span> `;
+      h2Element.innerHTML = data.name
+
     }
     if (h3Element) {
       h3Element.innerHTML = `Nationality : <span>${data.country[0].country_id}</span> 
